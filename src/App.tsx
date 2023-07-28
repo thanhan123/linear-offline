@@ -34,6 +34,42 @@ function App() {
     {
       title: "Title 3"
     },
+    {
+      title: "Title 3"
+    },
+    {
+      title: "Title 4"
+    },
+    {
+      title: "Title 5"
+    },
+    {
+      title: "Title 3"
+    },
+    {
+      title: "Title 4"
+    },
+    {
+      title: "Title 5"
+    },
+    {
+      title: "Title 3"
+    },
+    {
+      title: "Title 4"
+    },
+    {
+      title: "Title 5"
+    },
+    {
+      title: "Title 3"
+    },
+    {
+      title: "Title 4"
+    },
+    {
+      title: "Title 5"
+    },
   ]
   const tasks3 = [
     {
@@ -49,9 +85,9 @@ function App() {
   
   return (
     <div ref={componentRef} className='main-container'>
-      <ListTask tasks={tasks1}></ListTask>
-      <ListTask tasks={tasks2}></ListTask>
-      <ListTask tasks={tasks3}></ListTask>
+      <ListTask title="Backlog" tasks={tasks1}></ListTask>
+      <ListTask title="Inprogress" tasks={tasks2}></ListTask>
+      <ListTask title="Done" tasks={tasks3}></ListTask>
     </div>
   )
 }
