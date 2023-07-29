@@ -82,12 +82,36 @@ function App() {
       title: "Title 9"
     },
   ]
+  const tasks4 = [
+    {
+      title: "Title 7"
+    },
+    {
+      title: "Title 8"
+    },
+    {
+      title: "Title 9"
+    },
+  ]
+  const tasks5 = [
+    {
+      title: "Title 7"
+    },
+    {
+      title: "Title 8"
+    },
+    {
+      title: "Title 9"
+    },
+  ]
   
   return (
     <div ref={componentRef} className='main-container'>
       <ListTask title="Backlog" tasks={tasks1}></ListTask>
       <ListTask title="Inprogress" tasks={tasks2}></ListTask>
-      <ListTask title="Done" tasks={tasks3}></ListTask>
+      <ListTask title="Checking" tasks={tasks3}></ListTask>
+      <ListTask title="Finished" tasks={tasks4}></ListTask>
+      <ListTask title="Cancel" tasks={tasks5}></ListTask>
     </div>
   )
 }
